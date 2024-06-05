@@ -1,0 +1,22 @@
+read a number and print positive number or negative number or zero
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    // Write C code here
+    int a;
+    scanf("%d",&a);
+if(a>0)
+{
+    printf("positive");
+}
+else
+if(a<0)
+{
+    printf("negative");
+}
+else printf("equals zero");
+    
+
+    return 0;
+}
