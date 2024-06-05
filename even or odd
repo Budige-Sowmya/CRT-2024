@@ -1,0 +1,14 @@
+even or odd
+int main() {
+    // Write C code here
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        printf("is even");
+    }
+    else 
+    printf("id odd");
+
+    return 0;
+}
